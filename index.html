@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS 101 | Intro to Taylor Swift</title> <!--name of tab-->
+    <!--link to the style sheet-->
+    <link rel="stylesheet" href="styles/index.css">
+    <script type='module' src='https://cdn.inst-fs-iad-prod.inscloudgate.net/OFVaDdjdKSQ8D0HVhkv-pbOTcgG_93UXT0YMBH3rF_5J86lhxhiPNEjZogBe1WtlkLZ0NAscxPY1rDRGiBPeXg=='></script>
+</head>
+
+<body>
+
+    <!--Sticky Navigation Menu-->
+    <nav class="navbar">
+        <a href="ts.html" class="logo">TAYLOR SWIFT</a>
+        <div class="nav-links" id="navlinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="#debut">Debut</a>
+            <a href="#rep">Reputation</a>
+            <a href="#folklore">Folklore</a>
+            <a href="citations.html">Citations</a>
+        </div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+
+    <!--Banner Section-->
+    <header class="banner"> 
+        <h1>TS 101 Intro to Taylor Swift</h1>
+        <p>Learn who Taylor Swift is.</p>
+        <!--Intro-->
+        <section class="intro-content">
+            <h2>Discover Taylor Swift</h2>
+            <button onclick="document.getElementById('email-list').style='display: block;'">Join Email List</button>
+            <div id="email-list" class="form-popup" style="display: none;">
+                <form class="form-container">
+                    <h2>Sign up to receive notifications about Taylor</h2>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="button" class="btn cancel" onclick="document.getElementById('email-list').style.display='none'">Close</button>
+                </form>
+            </div>
+        </section>
+    </header>
+
+    <br>
+
+    <!--Taylor's Socials-->
+    <section class="socials">
+        <h2>Taylor's Socials</h2>
+        <p class="socials-info"> <!-- classes are used for css styling-->
+            <a href="https://www.youtube.com/@TaylorSwift" class="socials-link"> 
+                <img src="images/yt-logo.png" alt="Youtube" class="socials-icon"> 
+                youtube.com/@TaylorSwift     <!--actual text shown on page-->
+            </a>
+             | <!-- line btwn the methods of contact-->
+            <a href="https://www.instagram.com/TaylorSwift" class="socials-link"> 
+                <img src="images/ig-logo.png" alt="Instagram" class="socials-icon">
+                instagram.com/TaylorSwift    <!--actual text shown on page-->
+            </a>
+             | <!-- line btwn methods of contact-->
+            <a href="https://www.tiktok.com/@taylorswift?lang=en" class="socials-link">
+                <img src="images/tiktok-logo.png" alt="TikTok" class ="socials-icon">
+                tiktok.com/TaylorSwift    <!--actual text shown on page-->
+            </a>  
+        </p>
+    </section>
+
+    <br>
+
+    <!--Short Bio-->
+    <section class="bio">
+        <div class="bio-container"> 
+        <h2>Bio</h2>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>Taylor Alison Swift</td>
+            </tr>
+            <tr>
+                <td>Birthday: </td>
+                <td>December 13, 1989</td>
+            </tr>
+            <tr>
+                <td>Place of Birth: </td>
+                <td>West Reading, PA</td>
+            </tr>
+            <tr>
+                <td>Sign: </td>
+                <td>Sagittarius</td>
+            </tr>
+            <tr>
+                <td>Net Worth: </td>
+                <td>$1.6B USD</td>
+            </tr>
+        </table>
+        <p>
+            Taylor Swift is an American singer-songwriter who rose to fame in 2006 with her self-titled debut country album single "Tim McGraw." 
+            She has released fifteen albums, four of which are rerecordings with additional tracks that were previously cut for length. 
+            She is the first artist to win the Grammy for album of the year four times. 
+            Her Eras Tour broke the record for highest grossing concert tour, raking in an impressive $2 billion. 
+            Numbers play an important role in Swift's life; as many Swifties (fans of Taylor Swift) know, 13 is Swift's lucky number (the date she was born) and one of her most popular albums is named "1989" after the year she was born.
+            (Britannica)
+        </p>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!-- DEBUT SECTION -->
+    <section id="debut" class="debut"> <!-- the id makes it linkable; the class isf for the styling (bacground color)-->
+        <div class="debut-container">
+        <h2>Debut Era</h2>
+        <p class="debut-description">
+            Swift's self-titled debut album was released in 2006 under Big Machine Records. 
+            Out of eleven songs, five were released as singles: "Our Song," "Should've Said No," "Teardrops on My Guitar," "Tim McGraw," and "Picture to Burn." 
+            It is the most awarded country album of all time (People Magazine).
+        </p>
+        <br>
+            <div class="debut-grid">
+                <!-- Debut Album Cover -->
+                <div class="debut-album">
+                    <img src="images/ts-debut.webp" alt="Debut Album Cover">
+                    <div class="debut-album-overlay">
+                        "Tim McGraw" <br>
+                        "Picture to Burn" <br>
+                        "Teardrops on My Guitar" <br>
+                        "A Place in This World" <br>
+                        "Cold as You"<br>
+                        "The Outside"<br>
+                        "Tied Together with a Smile"<br>
+                        "Stay Beautiful"<br>
+                        "Should've Said No"<br>
+                        "Mary's Song (Oh My My My)"<br>
+                        "Our Song"<br>
+                        "I'm Only Me When I'm With You"<br>
+                        "Invisible"<br>
+                        "A Perfectly Good Heart"
+                    </div>
+                </div>
+
+                <!-- Debut Lyrics Box -->
+                <div class="debut-lyrics">
+                    <p>
+                        "When You think Tim McGraw<br>
+                        I hope you think of me"<br> 
+                        <br>
+                        - "Tim McGraw"
+                    </p>
+                </div>
+
+                <!-- Debut Outfit -->
+                <div class="debut-outfit">
+                    <img src="images/ts-acm-awards.avif" alt="Taylor Swift at the 2006 American Country Music Awards">
+                    <div class="debut-outfit-overlay">Taylor Swift at the 2006 American Country Music Awards. This was her first appearance.</div>
+                </div>
+
+                <!-- Debut Awards -->
+                <div class="debut-awards">
+                    <img src="images/ts-debut-awards.jpg" alt="Taylor at the 42nd Annual Academy Of Country Music Awards All-Star Jam 2007">
+                    <div class="debut-awards-overlay">Taylor at the 42nd Annual Academy Of Country Music Awards All-Star Jam 2007</div>
+                </div>
+
+                <!-- Debut Music Video  -->
+                <div class="debut-video">
+                    <a href="https://www.youtube.com/watch?v=xKCek6_dB0M&ab_channel=TaylorSwiftVEVO" class="debut-video-link"> 
+                        <img src="images/ts-debut-video.jpg" alt="Taylor Swift's song 'Teardrops on My Guitar.'" class="debut-video-pic">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!-- Rep Section -->
+    <section id="rep" class="rep">
+        <div class="rep-container">
+        <h2>Reputation Era</h2>
+        <p class="rep-description">
+            Reputation (styled as "reputation") is Swift's sixth studio album. 
+            Released in 2017, the album came out at the height of public scrutiny surrounding Swift's personal and romantic life. 
+            Reputation is Swift's repsonse to the scrunity. 
+            Her very public feud with the Kardashians and Ye (the rapper formerly known as Kanye West) had fellow celebrities taking sides. 
+            The feud is a notable event in pop culture and is referenced throughout her songs. 
+        </p>
+        <br>
+        <div class="rep-grid">
+            <!-- Rep Album Box -->
+            <div class="rep-album">
+                <img src="images/ts-rep.webp" alt="Reputation Album Cover">
+                <div class="rep-album-overlay">
+                    "...Ready for It" <br>
+                    "End Game" <br>
+                    "I Did Something Bad" <br>
+                    "Don't Blame Me" <br>
+                    "Delicate" <br>
+                    "Look What You Made Me Do" <br>
+                    "So It Goes" <br>
+                    "Gorgeous"  <br>
+                    "Getaway Car" <br>
+                    "King of My Heart" <br>
+                    "Dancing with Our Hands Tied" <br>
+                    "Dress" <br>
+                    "This is Why We Can't Have Nice Things" <br>
+                    "Call it What You Want"  <br>
+                    "New Year's Day"
+                </div>
+            </div>
+
+            <!-- Rep Lyrics Box -->
+            <div class="rep-lyrics">
+                <p>
+                    "My castle crumbled overnight <br>
+                    I brought a knife to a gunfight <br>
+                    They took the crown but it's alright" <br> 
+                    <br>
+                    - "Call It What You Want"
+                </p>
+            </div>
+
+            <!-- Rep Vid Right -->
+            <div class="rep-video-right">
+                <a href="https://www.youtube.com/watch?v=3tmd-ClpJxA&ab_channel=TaylorSwiftVEVO" class="rep-video-right-link"> 
+                    <img src="images/ts-rep-video-right.jpg" alt="Taylor Swift's song 'Look What You Made Me Do.'" class="rep-video-right-pic">
+                </a>
+            </div>
+
+            <!-- Rep Tour Box (Horizontal Rectangle) -->
+            <div class="rep-tour">
+                <img src="images/ts-rep-tour.webp" alt="Reputation Tour">
+                <div class="rep-tour-overlay">Taylor's Reputation Stadium Tour ran during 2018.</div>
+            </div>
+
+            <!-- Rep Video Left -->
+            <div class="rep-video-left">
+                <a href="https://www.youtube.com/watch?v=e-ORhEE9VVg&ab_channel=TaylorSwiftVEVO" class="rep-video-left-link"> 
+                    <img src="images/ts-rep-video-left.jpg" alt="Taylor Swift's song 'Blank Space.'" class="rep-video-left-pic">
+                </a>
+            </div>
+
+            <!-- OG Outfit Box (Vertical Rectangle) -->
+            <div class="rep-og-outfit">
+                <img src="images/ts-rep-og-outfit.avif" alt="Reputation Original Outfit">
+                <div class="rep-og-outfit-overlay">One of Taylor's original bodysuits worn during the 2018 Reputation Stadium Tour.</div>
+            </div>
+
+            <!-- New Outfit Box (Vertical Rectangle) -->
+            <div class="rep-new-outfit">
+                <img src="images/ts-rep-new-outfit.avif" alt="Reputation Eras Tour Outfit">
+                <div class="rep-new-outfit-overlay">The gold version of Taylor's Reputation outfit for the Eras Tour. (The other Reputation bodysuit is red.)</div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!-- FOLKLORE SECTION -->
+    <section id="folklore" class="folklore">
+        <div class="folklore-container">
+        <h2>Folklore Era</h2>
+        <p class="folklore-description">
+            Released in 2020 during the COVID-19 pandemic, Folklore (styled as "folklore") is a shift towards indie-folk influences. 
+            As a surprise-release, Folklore was introduced to the world with very little fanfare. 
+            Nevertheless, not only was it the bestselling album of 2020, but it also won the Grammy's album of the year and was heralded by music critics as one of her best lyricism. 
+            Her storytelling of both real and fictional characters is a switch from Swift's usual autobiographical songs. 
+        </p>
+        <br>
+            <div class="folklore-grid">
+                <!-- Folklore Album Cover Box -->
+                <div class="folklore-album">
+                    <img src="images/ts-folklore.webp" alt="Folklore Album Cover">
+                    <div class="folklore-album-overlay">
+                        "the 1" <br>
+                        "cardigan" <br>
+                        "the last great american dynasty" <br>
+                        "exile" <br>
+                        "my tears ricochet" <br>
+                        "mirrorball" <br>
+                        "seven" <br>
+                        "august" <br>
+                        "this is me trying" <br>
+                        "illicit affairs" <br>
+                        "invisible string" <br>
+                        "mad woman" <br>
+                        "ephiphany" <br>
+                        "betty" <br>
+                        "peace" <br>
+                        "hoax" <br>
+                        "the lakes" <br>
+                    </div>
+                </div>
+
+                <!-- Folklore Lyrics Box -->
+                <div class="folklore-lyrics">
+                    <p>
+                        "They told me all of my cages were mental <br>
+                        So I got wasted like all my potential <br>
+                        And my words shoot to kill when I'm mad <br>
+                        I have a lot of regrets about that" <br> 
+                        <br>
+                        - "this is me trying"
+                    </p>
+                </div>
+
+                <!-- Folklore Outfit Box (Center Vertical Rectangle) -->
+                <div class="folklore-outfit">
+                    <img src="images/ts-folklore-outfit.jpg" alt="Folklore Eras Tour Outfit">
+                    <div class="folklore-outfit-overlay">Taylor's Folklore/Evermore Outfit at the Eras Tour. This is one of several Folklore/Evermore dresses.</div>
+                </div>
+
+                <!-- Folklore Documentary Box (Spans two columns) -->
+                <div class="folklore-doc">
+                    <a href="https://www.disneyplus.com/movies/folklore-the-long-pond-studio-sessions/3Xlc0EjKtKpp" class="folklore-doc"> 
+                        <img src="images/ts-folklore-doc.jpg" alt="folklore: the long pond studio sessions on Disney+" class="folklore-doc-pic"> 
+                    </a> 
+                </div>
+
+                <!-- Folklore Music Video Box (Spans two columns) -->
+                <div class="folklore-video">
+                    <a href="https://www.youtube.com/watch?v=K-a8s8OLBSE&ab_channel=TaylorSwiftVEVO" class="folklore-video-link"> 
+                        <img src="images/ts-folklore-video.jpg" alt="Taylor Swift's song 'cardigan.'">
+                    </a> 
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <br>
+
+    <!--Footer-->
+    <footer>
+        <p>All images and videos are sourced from various creators and compiled for a class project. See <a href="citations.html">all citations</a>.</p>
+    </footer>
+
+</body>
+</html>
